@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 :root{
- --primary :"white"
+    --primary :"white"
+    sidebar-bg-color:"red"
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: #C4CDDC;
+}
+.login-page{
+    display: flex;
+    background-color: aliceblue;
+    min-height: 100vh;
+}
+.login_left-div{
+    max-width: 400px;
+    width: 400px;
+
+}
+.login_left-div2{
+    flex: 1;
+}
+.user-header{
+    padding: 10px;
+    background-color: #fff;
+    border-left: 1px solid rgb(223, 222, 222);
+}
+
+/* Sidebar */
+.pro-sidebar-layout{
+    background-color: #fff;
+}
+.pro-item-content{
+    color: black;
+}
+.pro-icon-wrapper{
+    background-color: rgb(64, 62, 62) !important;
+}
+.pro-menu-item{
+
+}
+.pro-inner-item{
+    /* background-color: #C4CDDC; */
+}
+
+/*  */
+.task-card{
+    width: 200px;
+    height: 400px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.task-card-title{
+    margin: 5px;
+}
+.task-s{
+    
 }
